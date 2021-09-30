@@ -1,4 +1,4 @@
-name: Build Binwalk
+name: Build and Test Binwalk
 on: [push, pull_request]
 jobs:
   build:
