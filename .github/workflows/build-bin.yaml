@@ -20,7 +20,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           architecture: x64
       - name: Installing coverage && running setup
-      - run: |
+        run: |
           python -mpip install coverage nose
           python ./setup.py install
       - name: Verify install
