@@ -27,5 +27,7 @@ jobs:
         run: |
           echo "Verifying install worked"
           which binwalk 
+      - run: echo "Running tests against install"
+      - run: python ./setup.py test
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
