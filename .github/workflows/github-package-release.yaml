@@ -3,6 +3,8 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+# This is work in progress and would incure charges
+
 name: Create and publish a Docker image
 
 on:
